@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.mazonna.bubbly.Home"
+    android:orientation="vertical">
+
+    <Button
+        android:text="New Exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:id="@+id/btnNew"
+        android:background="#71e096"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:onClick="OnNewExam"/>
+
+    <Button
+        android:text="Exams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:id="@+id/btnExam"
+        android:background="#5ad0e5"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:onClick="OnExams"/>
+</LinearLayout>

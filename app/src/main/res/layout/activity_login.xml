@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.mazonna.bubbly.Login"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLoginUsername"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:alpha="0"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtxtLoginUsername"
+        android:hint="Username" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLoginPassword"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:alpha="0"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtxtLoginPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:text="Login/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/btnLogin"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:onClick="OnLogin"
+        android:gravity="center"/>
+</LinearLayout>
